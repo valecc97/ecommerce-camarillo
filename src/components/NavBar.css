@@ -1,0 +1,30 @@
+.navBar {
+    max-width: 1330px;
+    margin: 0 auto;
+    padding: 8px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    list-style-type: none;
+}
+
+.navBar-item {
+    padding: 0 17px;
+}
+
+.navBar-item a {
+	color: #191919;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: -.4px;
+    transition: all ease 150ms;
+}
+
+.navBar-item a:hover {
+	color: #7c4dff;
+
+}
+
+.store-logo {
+    height: 46px;
+}
