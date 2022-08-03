@@ -1,3 +1,7 @@
+.navBar-wrapper {
+    border-bottom: 1px solid #eaeaea;
+}
+
 .navBar {
     max-width: 1330px;
     margin: 0 auto;
@@ -6,6 +10,8 @@
     align-items: center;
     justify-content: flex-start;
     list-style-type: none;
+    position: relative;
+    
 }
 
 .navBar-item {
@@ -23,6 +29,11 @@
 .navBar-item a:hover {
 	color: #7c4dff;
 
+}
+
+.navBar-icon {
+    position: absolute;
+    right: 50px;
 }
 
 .store-logo {

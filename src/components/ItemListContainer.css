@@ -1,0 +1,11 @@
+.ItemListContainer {
+	max-width: 1330px;
+    margin: 50px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.ItemListContainer h1 {
+	text-align: center;
+}
